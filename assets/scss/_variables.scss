@@ -41,21 +41,21 @@ $theme-colors: (
     primary: #4285F4,
     secondary: #b6c6f7,
     success: #00C851,
-    info: #c3bdbd,
+    info: #5ABBDB,
     warning: #ffbb33,
     danger: #ff4444,
-    light: #2b5252,
-    dark: #2e4aa1
+    light: #e8eff4,
+    dark: #0f1531
 );
 
-$theme-gradient-colors: (primary: linear-gradient(to right, #da8cff, #9a55ff),
-secondary: linear-gradient(to right, #e7ebf0, #868e96),
-success: linear-gradient(to right, #84d9d2, #07cdae),
-info: linear-gradient(to right, #90caf9, #047edf 99%),
-warning: linear-gradient(to right, #f6e384, #ffd500),
-danger: linear-gradient(to right, #ffbf96, #fe7096),
-light: linear-gradient(to bottom, #f4f4f4, #e4e4e9),
-dark: linear-gradient(89deg, #5e7188, #2e4aa1));
+$theme-gradient-colors: (primary: linear-gradient(to right, #559bd8, #559bd8),
+secondary: linear-gradient(to right, #b6c6f7, #b6c6f7),
+success: linear-gradient(to right, #84d9a0, #84d9a0),
+info: linear-gradient(to right, #da8cff, #da8cff 99%),
+warning: linear-gradient(to right, #f6e384, #f6e384),
+danger: linear-gradient(to right, #ffbf96, #ffbf96),
+light: linear-gradient(to bottom, #f4f4f4, #f4f4f4),
+dark: linear-gradient(89deg, #0f1531, #0f1531));
 
 
 ////////// COLOR SYSTEM //////////
@@ -335,9 +335,9 @@ $sidebar-light-menu-color: #c0cbee;
 $sidebar-light-submenu-color: #afbeeb;
 $sidebar-light-menu-active-bg: $white;
 $sidebar-light-menu-active-color: theme-color(primary);
-$sidebar-light-menu-hover-bg: darken($sidebar-light-bg, 1%);
+$sidebar-light-menu-hover-bg: darken($sidebar-light-bg, 10%);
 $sidebar-light-menu-hover-color: darken($sidebar-light-menu-color, 10%);
-$sidebar-light-submenu-hover-color: darken($sidebar-light-submenu-color, 20%);
+$sidebar-light-submenu-hover-color: $white;
 $sidebar-light-menu-icon-color: #c0cbee;
 $sidebar-light-menu-arrow-color: #c0cbee;
 $sidebar-light-menu-border-color: #324fa5;
