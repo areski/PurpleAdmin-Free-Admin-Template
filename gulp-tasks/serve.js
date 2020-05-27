@@ -50,7 +50,13 @@ gulp.task('serve', gulp.series('sass', function () {
 
 
 gulp.task('sass:watch', function () {
-    gulp.watch('./assets/scss/**/*.scss');
+    // gulp.watch('./assets/scss/**/*.scss');
+    // gulp.watch('./assets/scss/*.scss');
+    // gulp.watch('./assets/scss/_variables.scss');
+    watch(['input/*.js', '!input/something.js'], function (cb) {
+        // body omitted
+        cb();
+    });
 });
 
 
