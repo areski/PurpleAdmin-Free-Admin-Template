@@ -1,8 +1,8 @@
 ////////// COLOR SYSTEM //////////
 
-$blue: #5E50F9;
-$indigo: #6610f2;
-$purple: #6a008a;
+$blue: #4e73df;
+$indigo: #506fcc;
+$purple: #3d0a91;
 $pink: #E91E63;
 $red: #f96868;
 $orange: #f2a654;
@@ -37,14 +37,16 @@ gray-dark: #0f1531,
 black: #000000);
 
 
-$theme-colors: (primary: #b66dff,
-secondary: #c3bdbd,
-success: #1bcfb4,
-info: #198ae3,
-warning: #fed713,
-danger: #fe7c96,
-light: #f8f9fa,
-dark: #3e4b5b);
+$theme-colors: (
+    primary: #4285F4,
+    secondary: #b6c6f7,
+    success: #00C851,
+    info: #c3bdbd,
+    warning: #ffbb33,
+    danger: #ff4444,
+    light: #2b5252,
+    dark: #2e4aa1
+);
 
 $theme-gradient-colors: (primary: linear-gradient(to right, #da8cff, #9a55ff),
 secondary: linear-gradient(to right, #e7ebf0, #868e96),
@@ -53,7 +55,7 @@ info: linear-gradient(to right, #90caf9, #047edf 99%),
 warning: linear-gradient(to right, #f6e384, #ffd500),
 danger: linear-gradient(to right, #ffbf96, #fe7096),
 light: linear-gradient(to bottom, #f4f4f4, #e4e4e9),
-dark: linear-gradient(89deg, #5e7188, #3e4b5b));
+dark: linear-gradient(89deg, #5e7188, #2e4aa1));
 
 
 ////////// COLOR SYSTEM //////////
@@ -63,6 +65,7 @@ $content-bg: #f2edf3;
 $footer-bg: $content-bg;
 $footer-color: color(dark);
 $border-color: #ebedf2;
+$border-width: 0.1rem;
 $circle-border:$white;
 ////////// COLOR VARIABLES //////////
 
@@ -123,8 +126,8 @@ $modal-content-bg: $content-bg;
 
 ///////// NAVBAR ////////
 $navbar-bg: #fff;
-$navbar-height: 70px;
-$navbar-menu-color: #9c9fa6;
+$navbar-height: 4.375rem;
+$navbar-menu-color: #4e73df;
 $navbar-font-size: .875rem;
 $navbar-icon-font-size: 1.25rem;
 $mail-head-bg:#303a40;
@@ -136,7 +139,7 @@ $file-name:$black;
 
 ///////// BUTTONS ////////
 
-$button-fixed-width: 150px;
+$button-fixed-width: 9.375rem;
 $btn-padding-y: .875rem;
 $btn-padding-x: 2.5rem;
 $btn-line-height: 1;
@@ -179,7 +182,7 @@ $tooltip-border-radius: .375rem;
 /////////  FORMS /////////
 
 $input-bg: color(white);
-$input-border-radius: 2px;
+$input-border-radius: 0.125rem;
 $input-placeholder-color: #c9c8c8;
 $input-font-size: .8125rem;
 
@@ -207,20 +210,20 @@ $dropdown-border-color: $border-color;
 $dropdown-divider-bg: $border-color;
 $dropdown-link-color: $body-color;
 $dropdown-header-color: $body-color;
-$dropdown-menu-box-shadow: 0px 1px 15px 1px rgba(230, 234, 236, 0.35);
+$dropdown-menu-box-shadow: 0rem 0.0625rem 10.9375rem 0.0625rem rgba(230, 234, 236, 0.35);
 $dropdown-hover-bg: #f8f9fa;
 ////////  DROPDOWNS ///////
 
 
 ////////// MEASUREMENT AND PROPERTY VARIABLES //////////
 
-$boxed-container-width: 1200px;
-$border-property: 1px solid $border-color;
+$boxed-container-width: 75rem;
+$border-property: 0.0625rem solid $border-color;
 $card-spacing-y: 2.5rem;
 $card-padding-y: 2.5rem;
 $card-padding-x: 2.5rem;
 $card-border-radius: .3125rem;
-$grid-gutter-width: 40px;
+$grid-gutter-width: 2.5rem;
 $action-transition-duration: 0.25s;
 $action-transition-timing-function: ease;
 ////////// OTHER VARIABLES //////////
@@ -243,19 +246,19 @@ $breadcrumb-divider: "/";
 $breadcrumb-custom-padding-y: 0;
 $breadcrumb-custom-padding-x: 0;
 $breadcrumb-custom-item-padding-y: 0.56rem;
-$breadcrumb-custom-item-padding-x: 10px;
+$breadcrumb-custom-item-padding-x: 0.625rem;
 $breadcrumb-custom-item-color: $black;
 $breadcrumb-item-bg: #dbe3e6;
 ////////// BREAD CRUMBS VARIABLES //////////
 
 
 ////////// MODALS VARIABLES //////////
-$modal-inner-padding: 15px;
-$modal-dialog-margin: 10px;
-$modal-dialog-margin-y-sm-up: 30px;
+$modal-inner-padding: 0.9375rem;
+$modal-dialog-margin: 0.625rem;
+$modal-dialog-margin-y-sm-up: 1.875rem;
 $modal-title-line-height: $line-height-base;
-$modal-content-box-shadow-xs: 0 3px 9px rgba($black, .5);
-$modal-content-box-shadow-sm-up: 0 5px 15px rgba($black, .5);
+$modal-content-box-shadow-xs: 0 0.1875rem 0.5625rem rgba($black, .5);
+$modal-content-box-shadow-sm-up: 0 0.3125rem 0.9375rem rgba($black, .5);
 
 $modal-backdrop-bg: $black;
 $modal-backdrop-opacity: .5;
@@ -268,18 +271,18 @@ $modal-header-border-width: $border-width;
 $modal-content-border-width: $border-width;
 $modal-footer-border-width: $border-width;
 
-$modal-header-padding-x: 26px;
-$modal-header-padding-y: 25px;
+$modal-header-padding-x: 1.625rem;
+$modal-header-padding-y: 1.562rem;
 
-$modal-body-padding-x: 26px;
-$modal-body-padding-y: 35px;
+$modal-body-padding-x: 1.625rem;
+$modal-body-padding-y: 2.1875rem;
 
-$modal-footer-padding-x: 31px;
-$modal-footer-padding-y: 15px;
+$modal-footer-padding-x: 1.9375rem;
+$modal-footer-padding-y: 0.9375rem;
 
 $modal-lg: 90%;
-$modal-md: 500px;
-$modal-sm: 300px;
+$modal-md: 31.25rem;
+$modal-sm: 18.75rem;
 $modal-transition: transform .4s ease;
 
 ////////// MODALS VARIABLES //////////
@@ -323,21 +326,21 @@ $page-title-color: $body-color;
 
 
 ////////// SIDEBAR ////////
-$sidebar-width-lg: 260px;
-$sidebar-width-mini: 185px;
-$sidebar-width-icon: 70px;
+$sidebar-width-lg: 16.25rem;
+$sidebar-width-mini: 11.5625rem;
+$sidebar-width-icon: 4.375rem;
 
-$sidebar-light-bg: $white;
-$sidebar-light-menu-color: #3e4b5b;
-$sidebar-light-submenu-color: #888;
+$sidebar-light-bg: $blue;
+$sidebar-light-menu-color: #c0cbee;
+$sidebar-light-submenu-color: #afbeeb;
 $sidebar-light-menu-active-bg: $white;
 $sidebar-light-menu-active-color: theme-color(primary);
 $sidebar-light-menu-hover-bg: darken($sidebar-light-bg, 1%);
 $sidebar-light-menu-hover-color: darken($sidebar-light-menu-color, 10%);
 $sidebar-light-submenu-hover-color: darken($sidebar-light-submenu-color, 20%);
-$sidebar-light-menu-icon-color: #bba8bff5;
-$sidebar-light-menu-arrow-color: #9e9da0;
-$sidebar-light-menu-border-color: #f2edf3;
+$sidebar-light-menu-icon-color: #c0cbee;
+$sidebar-light-menu-arrow-color: #c0cbee;
+$sidebar-light-menu-border-color: #324fa5;
 
 $sidebar-menu-font-size: $default-font-size;
 $sidebar-menu-padding-y: 1.125rem;
@@ -357,7 +360,7 @@ $rtl-sidebar-submenu-padding: 0 1.5rem 0 0;
 $sidebar-icon-only-menu-padding: .5rem 1.625rem .5rem 1.188rem;
 $sidebar-icon-only-submenu-padding: 0 0 0 1.5rem;
 
-$icon-only-collapse-width: 190px;
+$icon-only-collapse-width: 11.875rem;
 $icon-only-menu-bg-light: $sidebar-light-menu-hover-bg;
 
 ///////// SIDEBAR ////////
